@@ -143,11 +143,11 @@ loader2.load('./assets/scene.gltf', function(gltf) {
 
 })
 
-const loader2 = new GLTFLoader()
-loader2.load('./coba/scene.gltf', function(gltf) {
+const loaderti = new GLTFLoader()
+loaderti.load('./coba/scene.gltf', function(gltf) {
     const root = gltf.scene;
     root.position.x = 5;
-    root.position.y = -5;
+    root.position.y = 5;
     scene.add(root);
 
     root.traverse(n => {
@@ -216,15 +216,15 @@ scene.add(mirrorBall);
  */
 
 
-const dragGeo = new THREE.ConeGeometry()
+const dragGeo = new THREE.BoxGeometry()
 const dragMaterial = [
-    new THREE.MeshPhongMaterial({ color: 'black', transparent: true }),
+    new THREE.MeshPhongMaterial({ color: 'green', transparent: true }),
 ]
 
 const cubes = [
     new THREE.Mesh(dragGeo, dragMaterial[0]),
 ]
-cubes[0].position.set(0, -4.5, 10)
+cubes[0].position.set(3, 5, 10)
 
 cubes.forEach((c) => scene.add(c))
 
