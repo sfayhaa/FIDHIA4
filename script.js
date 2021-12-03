@@ -131,7 +131,7 @@ const loader2 = new GLTFLoader()
 loader2.load('./assets/scene.gltf', function(gltf) {
     const root = gltf.scene;
     root.position.x = 0;
-    root.position.y = 15;
+    root.position.y = 5;
     scene.add(root);
 
     root.traverse(n => {
@@ -143,6 +143,21 @@ loader2.load('./assets/scene.gltf', function(gltf) {
 
 })
 
+const loader2 = new GLTFLoader()
+loader2.load('./coba/scene.gltf', function(gltf) {
+    const root = gltf.scene;
+    root.position.x = 5;
+    root.position.y = -5;
+    scene.add(root);
+
+    root.traverse(n => {
+        if (n.isMesh) {
+            n.castShadow = true;
+            n.receiveShadow = true;
+        }
+    });
+
+})
 
 /**
  * Lights
