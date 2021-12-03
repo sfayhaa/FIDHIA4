@@ -146,7 +146,7 @@ loader2.load('./assets/scene.gltf', function(gltf) {
 const loaderti = new GLTFLoader()
 loaderti.load('./coba/scene.gltf', function(gltf) {
     const root = gltf.scene;
-    root.position.x = 5;
+    root.position.x = 0;
     root.position.y = 1;
     scene.add(root);
 
@@ -224,7 +224,7 @@ const dragMaterial = [
 const cubes = [
     new THREE.Mesh(dragGeo, dragMaterial[0]),
 ]
-cubes[0].position.set(3, 1, 10)
+cubes[0].position.set(0, 1, 10)
 
 cubes.forEach((c) => scene.add(c))
 
