@@ -1,0 +1,11 @@
+Model Information:
+* title:	Day 330: Jeepstar
+* source:	https://sketchfab.com/3d-models/day-330-jeepstar-4bfd57c17fcd4404a19208878ae34192
+* author:	alban (https://sketchfab.com/alban)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Day 330: Jeepstar" (https://sketchfab.com/3d-models/day-330-jeepstar-4bfd57c17fcd4404a19208878ae34192) by alban (https://sketchfab.com/alban) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
